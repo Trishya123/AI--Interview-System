@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+#Python
+*.pyc
+.venv/
+venv/
+# Environment
+.env
+# Vector DB (can be large)
+backend/chroma_db/
+
+# ML books (large PDFs, don't commit)
+backend/data/books/
+
+# Node
+frontend/node_modules/
+frontend/.env.local
